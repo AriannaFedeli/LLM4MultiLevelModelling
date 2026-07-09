@@ -1,2 +1,3 @@
-# LLM4MultiLevelModelling
+# Assessing Capabilities of Large Language Models for Multi-Level Modeling
+
 Repository for the paper "Assessing Capabilities of Large Language Models for Multi-Level Modeling"

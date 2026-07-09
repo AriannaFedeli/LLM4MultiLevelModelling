@@ -1,0 +1,53 @@
+S1 — Hierarchy Navigation
+
+Given the submitted solution to the MULTI Process Challenge and the requirements describing the challenge, navigate the files of the solution and reconstruct the proposed multilevel model hierarchy. Identify the main models, the levels they belong to, and the relationships between the different levels.
+
+How many levels can be distinguished in the proposed hierarchy? 
+
+In the existing hierarchy, where is the entity RequirementsAnalysisTask located? Identify the level in which it appears, its class/type, and the level where that class/type is declared.
+
+---
+
+S2 — Additive Changes
+
+If I wanted to add a new role in the insurance context, at which level of the hierarchy should it be inserted? Explain the reasoning by referring to the existing insurance branch.
+
+Given the existing multilevel hierarchy of the Process case study, generate the XMI of insurance_process after adding a new role named ClaimsSupervisorRole. The new role should be inserted at the correct level of the insurance branch and the resulting XMI should be consistent with the existing hierarchy.
+
+Given the existing multilevel hierarchy of the Process case study, generate a new instance of software_engineering_process in XMI in which there is an actor named Maria who uses the Java programming language.
+
+---
+
+S3 — Subtractive Changes
+
+Given the existing multilevel hierarchy of the Process case study, remove FinancialOfficerRole from insurance_process. Update the affected model consistently. In particular, handle all references from tasks, actors, role assignments, and configuration-level instances. If the removal causes inconsistencies that cannot be automatically resolved, explicitly report them and propose a consistent alternative.
+
+---
+
+S4 — Structural Changes
+
+Given the existing multilevel hierarchy of the Process case study, rename the relation executes between Role and Task to isResponsibleFor. Propagate this structural change to all affected levels and instances, and their configuration models. Return the updated hierarchy or clearly describe all required XMI updates.
+
+---
+
+S5 — New Instances Generation
+
+Given the existing multilevel hierarchy of the Process case study, generate a possible new instance of the Acme Software Engineering Process in XMI format. The instance should be placed at the correct level and should only use elements, attributes, and relations that are defined in the existing hierarchy.
+
+Given the existing multilevel hierarchy of the Process case study, generate a new instance of process that models the processes of a domain different from the ones already present in the project.
+
+---
+
+S6 — New Hierarchy Generation
+
+Given another the MULTI Challenge, generate an entire multilevel hierarchy that satisfies the requirements described in the challenge. 
+
+Generate a graphical representation of the hierarchy produced for the Collaborative Comparison Challenge. The diagram should be class-diagram-like and should show the different levels, the main modeling concepts, and the relevant classification and association relations.
+
+---
+
+Social Network hierarchy generation
+
+Given the following Social Network case description, model the case study as a multilevel hierarchy. 
+
+Generate a graphical class-diagram-like representation of the Social Network hierarchy. The diagram should distinguish the levels of the hierarchy and show the main classes, attributes, specializations, and associations.

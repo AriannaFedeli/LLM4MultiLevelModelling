@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<software_engineering_process_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:software_engineering_process_metamodel="software_engineering_process_metamodel" __metamodels="process">
+  <__contains xsi:type="software_engineering_process_metamodel:Artifact" __name="CodeArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="TestCaseDesignTask" __relationNames="produces,TestCaseArtifact=produces,0,-1,1-1-*,false" __potency="1-1-*" isCritical="true" produces="//@__contains.2"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Artifact" __name="TestCaseArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:InitTask" __name="InitialTask" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:FinalTask" __name="FinalTask" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:AndJoin" __name="AndJoin1" __relationNames="source,CodingTask=join1_s1,0,-1,1-1-*,false;target,TestingTask=join1_t,0,-1,1-1-*,false;source,TestDesignReviewTask=join1_s2,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.17 //@__contains.13" target="//@__contains.18"/>
+  <__contains xsi:type="software_engineering_process_metamodel:SeniorRole" __name="SeniorAnalystRole" __relationNames="executes,TestCaseDesignTask=sa_perf,0,-1,1-1-*,false" __potency="1-1-*" executes="//@__contains.1"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="DesignTask" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Role" __name="AnalystRole" __relationNames="executes,RequirementsAnalysisTask=analyst_perf,0,-1,1-1-*,false" __potency="1-1-*" executes="//@__contains.23"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Artifact" __name="TestReportArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Sequence" __name="Seq4" __relationNames="target,FinalTask=seq4_t,0,-1,1-1-*,false;source,TestingTask=seq4_s,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.18" target="//@__contains.4"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Sequence" __name="Seq3" __relationNames="source,TestCaseDesignTask=seq3_s,0,-1,1-1-*,false;target,TestDesignReviewTask=seq3_t,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.1" target="//@__contains.13"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Role" __name="DeveloperRole" __relationNames="executes,CodingTask=dev_perf,0,-1,1-1-*,false;executes,TestCaseDesignTask=dev_perf1,0,-1,1-1-*,false" __potency="1-1-*" executes="//@__contains.17 //@__contains.1"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="TestDesignReviewTask" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Role" __name="TesterRole" __relationNames="executes,TestingTask=tester_perf,0,-1,1-1-*,false" __potency="1-1-*" executes="//@__contains.18"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Sequence" __name="Seq2" __relationNames="target,CodingTask=seq2_t,0,-1,1-1-*,false;source,DesignTask=seq2_s,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.7" target="//@__contains.17"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Sequence" __name="Seq1" __relationNames="target,RequirementsAnalysisTask=seq1_t,0,-1,1-1-*,false;source,InitialTask=seq1_s,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.3" target="//@__contains.23"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="CodingTask" __relationNames="uses,ProgLangArtifact=uses,1,-1,1-1-*,false;produces,CodeArtifact=produces,0,-1,1-1-*,false" __potency="1-1-*" produces="//@__contains.0" uses="//@__contains.22"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="TestingTask" __relationNames="produces,TestReportArtifact=produces,0,-1,1-1-*,false" __potency="1-1-*" expectedDuration="9" produces="//@__contains.9"/>
+  <__contains xsi:type="software_engineering_process_metamodel:AndSplit" __name="AndSplit1" __relationNames="target,DesignTask=split1_t1,0,-1,1-1-*,false;target,TestCaseDesignTask=split1_t2,0,-1,1-1-*,false;source,RequirementsAnalysisTask=split1_s,0,-1,1-1-*,false" __potency="1-1-*" source="//@__contains.23" target="//@__contains.7 //@__contains.1"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Artifact" __name="ReqSpecificationArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Role" __name="TestDesignerRole" __relationNames="executes,TestCaseDesignTask=td_perf,0,-1,1-1-*,false" __potency="1-1-*" executes="//@__contains.1"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Artifact" __name="ProgLangArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_metamodel:Task" __name="RequirementsAnalysisTask" __relationNames="produces,ReqSpecificationArtifact=produces,0,-1,1-1-*,false" __potency="1-1-*" produces="//@__contains.20"/>
+</software_engineering_process_metamodel:Root>

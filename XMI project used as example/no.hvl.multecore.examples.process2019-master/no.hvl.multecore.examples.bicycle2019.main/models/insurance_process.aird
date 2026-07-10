@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_9PZNYJpZEemT8Z7rFqPUmg" selectedViews="_9SgLwJpZEemT8Z7rFqPUmg" version="14.1.0.201810161215">
+    <semanticResources>insurance_process.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_9SgLwJpZEemT8Z7rFqPUmg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_9TpbQJpZEemT8Z7rFqPUmg" name="metamodelDiagram" repPath="#_9S9ewJpZEemT8Z7rFqPUmg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']"/>
+        <target xmi:type="ecore:EPackage" href="insurance_process.ecore#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_9S9ewJpZEemT8Z7rFqPUmg" name="metamodelDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_9TlJ0JpZEemT8Z7rFqPUmg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_9TlJ0ZpZEemT8Z7rFqPUmg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_9T-LYJpZEemT8Z7rFqPUmg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_9T-LYZpZEemT8Z7rFqPUmg" type="Sirius" element="_9S9ewJpZEemT8Z7rFqPUmg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_TVHHUJpaEemT8Z7rFqPUmg" type="2003" element="_TUwiAJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_TVIVcJpaEemT8Z7rFqPUmg" type="3012" element="_TVC14JpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_TVI8gJpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TVI8gZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TVJjkJpaEemT8Z7rFqPUmg" type="3003" element="_TVC14ZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TVJjkZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TVJjkppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TVIVcZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TVIVcppaEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aJtnoJpaEemT8Z7rFqPUmg" type="3012" element="_aJlr0JpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_aJuOsJpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_aJuOsZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aJuOsppaEemT8Z7rFqPUmg" type="3016" element="_aJmS4JpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_aJuOs5paEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJuOtJpaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_aJtnoZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJtnoppaEemT8Z7rFqPUmg" x="118" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVbREJ5nEemtuLO7EWAz9g" type="3012" element="_qTnTMJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVh-wJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVh-wZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVneUJ5nEemtuLO7EWAz9g" type="3016" element="_qTn6QJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVneUZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVneUp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVbREZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVbREp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TVHHU5paEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_TVHHVJpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_TVHHVZpaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_TVHHVppaEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TVHHUZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TVHHUppaEemT8Z7rFqPUmg" x="370" y="135" width="128" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_V72gEJpaEemT8Z7rFqPUmg" type="2003" element="_V7mBYJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_V748UJpaEemT8Z7rFqPUmg" type="3012" element="_V7yOoZpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_V748U5paEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_V748VJpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_V76KcJpaEemT8Z7rFqPUmg" type="3003" element="_V7yOoppaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_V76KcZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V76KcppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_V748UZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V748UppaEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aJu1wJpaEemT8Z7rFqPUmg" type="3012" element="_aJjPkJpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_aJvc0JpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_aJvc0ZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aJwD4JpaEemT8Z7rFqPUmg" type="3016" element="_aJjPkZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_aJwD4ZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJwD4ppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_aJu1wZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aJu1wppaEemT8Z7rFqPUmg" x="113" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVoFYJ5nEemtuLO7EWAz9g" type="3012" element="_qUOXMJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVoscJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVoscZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVpTgJ5nEemtuLO7EWAz9g" type="3016" element="_qUO-QJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVpTgZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVpTgp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVoFYZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVoFYp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_V72gE5paEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_V73HIJpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_V73HIZpaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_V73HIppaEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_V72gEZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V72gEppaEemT8Z7rFqPUmg" x="372" y="217" width="123" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_esHb0JpaEemT8Z7rFqPUmg" type="2003" element="_er6AcJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_esIC5ZpaEemT8Z7rFqPUmg" type="3012" element="_er8csJpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_esIp8JpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_esIp8ZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_esJ4EJpaEemT8Z7rFqPUmg" type="3003" element="_er8csZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_esJ4EZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esJ4EppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_esIC5ppaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esIC55paEemT8Z7rFqPUmg" x="67" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_esIp8ppaEemT8Z7rFqPUmg" type="3012" element="_er9q0JpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_esJRAJpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_esJRAZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_esKfIJpaEemT8Z7rFqPUmg" type="3016" element="_er-R4JpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_esKfIZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esKfIppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_esIp85paEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esIp9JpaEemT8Z7rFqPUmg" x="113" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVp6kJ5nEemtuLO7EWAz9g" type="3012" element="_qThMkJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVqhoJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVqhoZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVrIsJ5nEemtuLO7EWAz9g" type="3016" element="_qThMkZ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVrIsZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVrIsp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVp6kZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVp6kp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_esHb05paEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_esHb1JpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_esHb1ZpaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_esHb1ppaEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_esHb0ZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esHb0ppaEemT8Z7rFqPUmg" x="372" y="315" width="123" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_lrTbgJpaEemT8Z7rFqPUmg" type="2003" element="_lrEK8JpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_lrUClZpaEemT8Z7rFqPUmg" type="3012" element="_lrQYMJpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_lrUpoJpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lrUpoZpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lrVQsJpaEemT8Z7rFqPUmg" type="3003" element="_lrQ_QJpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lrVQsZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrVQsppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_lrUClppaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrUCl5paEemT8Z7rFqPUmg" x="95" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vZVAAJpaEemT8Z7rFqPUmg" type="3012" element="_vZO5YJpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_vZVAA5paEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vZVABJpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vZVnEJpaEemT8Z7rFqPUmg" type="3016" element="_vZPgcJpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vZVnEZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vZVnEppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vZVAAZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vZVAAppaEemT8Z7rFqPUmg" x="153" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVrvwJ5nEemtuLO7EWAz9g" type="3012" element="_qTWNcJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVrvw55nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVrvxJ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVsW0J5nEemtuLO7EWAz9g" type="3016" element="_qTW0gJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVsW0Z5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVsW0p5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVrvwZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVrvwp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lrTbg5paEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_lrTbhJpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_lrTbhZpaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_lrTbhppaEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_lrTbgZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrTbgppaEemT8Z7rFqPUmg" x="615" y="472" width="163" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xGbbAJpaEemT8Z7rFqPUmg" type="2003" element="_xGOmuJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_xGd3QppaEemT8Z7rFqPUmg" type="3012" element="_xGQb4JpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_xGd3RZpaEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_xGd3RppaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xGfscJpaEemT8Z7rFqPUmg" type="3003" element="_xGQb4ZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xGfscZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xGfscppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xGd3Q5paEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xGd3RJpaEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xGeeUJpaEemT8Z7rFqPUmg" type="3012" element="_xGRC8JpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_xGeeU5paEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_xGeeVJpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xGfsc5paEemT8Z7rFqPUmg" type="3016" element="_xGRC8ZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xGfsdJpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xGfsdZpaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xGeeUZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xGeeUppaEemT8Z7rFqPUmg" x="130" y="1" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVs94J5nEemtuLO7EWAz9g" type="3012" element="_qT_GoJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVtk8J5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVtk8Z5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVuMAJ5nEemtuLO7EWAz9g" type="3016" element="_qT_tsJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVuMAZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVuMAp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVs94Z5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVs94p5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xGcCEJpaEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_xGcCEZpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_xGcCEppaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_xGcCE5paEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xGbbAZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xGbbAppaEemT8Z7rFqPUmg" x="627" y="385" width="140" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2n_mIJpaEemT8Z7rFqPUmg" type="2003" element="_2nwVmppaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_2oBbUJpaEemT8Z7rFqPUmg" type="3012" element="_2nxjsJpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_2oBbU5paEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2oBbVJpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2oDQgJpaEemT8Z7rFqPUmg" type="3003" element="_2nxjsZpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2oDQgZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2oDQgppaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2oBbUZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2oBbUppaEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2oCCYJpaEemT8Z7rFqPUmg" type="3012" element="_2nyKwZpaEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_2oCCY5paEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2oCCZJpaEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2oDQg5paEemT8Z7rFqPUmg" type="3016" element="_2nyx0JpaEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2oDQhJpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2oDQhZpaEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2oCCYZpaEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2oCCYppaEemT8Z7rFqPUmg" x="118" y="2" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVuMA55nEemtuLO7EWAz9g" type="3012" element="_qUD_IJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVuzEJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVuzEZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVvaIJ5nEemtuLO7EWAz9g" type="3016" element="_qUEmMJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVvaIZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVvaIp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVuMBJ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVuMBZ5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2oANMJpaEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_2oANMZpaEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_2oANMppaEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_2oANM5paEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2n_mIZpaEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2n_mIppaEemT8Z7rFqPUmg" x="370" y="415" width="128" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Rr_X8JpbEemT8Z7rFqPUmg" type="2003" element="_RrzxwJpbEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_Rr__BZpbEemT8Z7rFqPUmg" type="3012" element="_Rr7tkppbEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_RsAmEJpbEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RsAmEZpbEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_RsAmFZpbEemT8Z7rFqPUmg" type="3003" element="_Rr7tk5pbEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_RsAmFppbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RsAmF5pbEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Rr__BppbEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rr__B5pbEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S2bKwJpbEemT8Z7rFqPUmg" type="3012" element="_S2QLoJpbEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_S2bKw5pbEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S2bKxJpbEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S2bx0JpbEemT8Z7rFqPUmg" type="3016" element="_S2QLoZpbEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S2bx0ZpbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2bx0ppbEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S2bKwZpbEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2bKwppbEemT8Z7rFqPUmg" x="130" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVwBMJ5nEemtuLO7EWAz9g" type="3012" element="_qTQt4J5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVwoQJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVwoQZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVwoQp5nEemtuLO7EWAz9g" type="3016" element="_qTRU8J5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVxPUJ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVxPUZ5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVwBMZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVwBMp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Rr_X85pbEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Rr_X9JpbEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Rr_X9ZpbEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Rr_X9ppbEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Rr_X8ZpbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rr_X8ppbEemT8Z7rFqPUmg" x="535" y="135" width="140" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_1SdrsJpcEemT8Z7rFqPUmg" type="2003" element="_1SQQUJpcEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_1Sfg4ppcEemT8Z7rFqPUmg" type="3012" element="_1SbPcJpcEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_1Sfg5ZpcEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1Sfg5ppcEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1SgvAJpcEemT8Z7rFqPUmg" type="3003" element="_1SbPcZpcEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1SgvAZpcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1SgvAppcEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1Sfg45pcEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Sfg5JpcEemT8Z7rFqPUmg" x="90" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2f5vMJpcEemT8Z7rFqPUmg" type="3012" element="_2frswppcEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_2f6WQJpcEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2f6WQZpcEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2f6WQppcEemT8Z7rFqPUmg" type="3016" element="_2fsT0JpcEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2f6WQ5pcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2f6WRJpcEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2f5vMZpcEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2f5vMppcEemT8Z7rFqPUmg" x="130" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVxPUp5nEemtuLO7EWAz9g" type="3012" element="_qTsywJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVx2YJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVx2YZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qVzEgJ5nEemtuLO7EWAz9g" type="3016" element="_qTtZ0J5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qVzEgZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVzEgp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVxPU55nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVxPVJ5nEemtuLO7EWAz9g" y="-12" width="76" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1SeSwJpcEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_1Se50JpcEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_1Se50ZpcEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_1Se50ppcEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1SdrsZpcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1SdrsppcEemT8Z7rFqPUmg" x="285" y="655" width="140" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2y2gYJpcEemT8Z7rFqPUmg" type="2003" element="_2ynP0JpcEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_2y3ugJpcEemT8Z7rFqPUmg" type="3012" element="_2yy2AZpcEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_2y3ug5pcEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2y3uhJpcEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2y4VkJpcEemT8Z7rFqPUmg" type="3003" element="_2yy2AppcEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2y4VkZpcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y4VkppcEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2y3ugZpcEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y3ugppcEemT8Z7rFqPUmg" x="71" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4D54kJpcEemT8Z7rFqPUmg" type="3012" element="_4DuSYJpcEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_4D6foJpcEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4D6foZpcEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4D7GsJpcEemT8Z7rFqPUmg" type="3016" element="_4DuSYZpcEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_4D7GsZpcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4D7GsppcEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_4D54kZpcEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4D54kppcEemT8Z7rFqPUmg" x="130" y="1" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qVzrkJ5nEemtuLO7EWAz9g" type="3012" element="_qUI3oJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qVzrk55nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qVzrlJ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qV0SoJ5nEemtuLO7EWAz9g" type="3016" element="_qUJesJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qV05sJ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV05sZ5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qVzrkZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qVzrkp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2y2gY5pcEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_2y2gZJpcEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_2y2gZZpcEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_2y2gZppcEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2y2gYZpcEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y2gYppcEemT8Z7rFqPUmg" x="525" y="655" width="140" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_akqW4JpdEemT8Z7rFqPUmg" type="2003" element="_akcUcJpdEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_akrlAJpdEemT8Z7rFqPUmg" type="3012" element="_akmsgJpdEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_akrlA5pdEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_akrlBJpdEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aksMEJpdEemT8Z7rFqPUmg" type="3003" element="_akmsgZpdEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_aksMEZpdEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aksMEppdEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_akrlAZpdEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_akrlAppdEemT8Z7rFqPUmg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bbnNAJpdEemT8Z7rFqPUmg" type="3012" element="_bbVgMJpdEemT8Z7rFqPUmg">
+            <children xmi:type="notation:Node" xmi:id="_bbn0EJpdEemT8Z7rFqPUmg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bbn0EZpdEemT8Z7rFqPUmg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bbn0EppdEemT8Z7rFqPUmg" type="3016" element="_bbVgMZpdEemT8Z7rFqPUmg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_bbn0E5pdEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbn0FJpdEemT8Z7rFqPUmg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_bbnNAZpdEemT8Z7rFqPUmg" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbnNAppdEemT8Z7rFqPUmg" x="130" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qV05sp5nEemtuLO7EWAz9g" type="3012" element="_qSkKUJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qV1gwJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qV1gwZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qV2H0J5nEemtuLO7EWAz9g" type="3016" element="_qSt7UJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qV2H0Z5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV2H0p5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qV05s55nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV05tJ5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_akq98JpdEemT8Z7rFqPUmg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_akq98ZpdEemT8Z7rFqPUmg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_akq98ppdEemT8Z7rFqPUmg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_akq985pdEemT8Z7rFqPUmg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_akqW4ZpdEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_akqW4ppdEemT8Z7rFqPUmg" x="280" y="565" width="140" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_l4-isJ2dEemJENHBY18u0w" type="2003" element="_l30sIJ2dEemJENHBY18u0w">
+          <children xmi:type="notation:Node" xmi:id="_l5A-8J2dEemJENHBY18u0w" type="3012" element="_l4qZop2dEemJENHBY18u0w">
+            <children xmi:type="notation:Node" xmi:id="_l5A-852dEemJENHBY18u0w" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_l5A-9J2dEemJENHBY18u0w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_l5BmAJ2dEemJENHBY18u0w" type="3003" element="_l4qZo52dEemJENHBY18u0w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_l5BmAZ2dEemJENHBY18u0w" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5BmAp2dEemJENHBY18u0w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_l5A-8Z2dEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l5A-8p2dEemJENHBY18u0w" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__7uDIJ2uEem-87PekGDpbA" type="3012" element="__6RRoJ2uEem-87PekGDpbA">
+            <children xmi:type="notation:Node" xmi:id="__7uqMJ2uEem-87PekGDpbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__7uqMZ2uEem-87PekGDpbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__7vRQJ2uEem-87PekGDpbA" type="3016" element="__6RRoZ2uEem-87PekGDpbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__7vRQZ2uEem-87PekGDpbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7vRQp2uEem-87PekGDpbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__7uDIZ2uEem-87PekGDpbA" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7uDIp2uEem-87PekGDpbA" x="130" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qV2u4J5nEemtuLO7EWAz9g" type="3012" element="_qTbF8J5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qV3V8J5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qV3V8Z5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qV39AJ5nEemtuLO7EWAz9g" type="3016" element="_qTbtAJ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qV39AZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV39Ap5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qV2u4Z5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV2u4p5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_l4_JwJ2dEemJENHBY18u0w" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_l4_JwZ2dEemJENHBY18u0w" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_l4_Jwp2dEemJENHBY18u0w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_l4_Jw52dEemJENHBY18u0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_l4-isZ2dEemJENHBY18u0w" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l4-isp2dEemJENHBY18u0w" x="165" y="245" width="140" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kmfqUJ2hEemJENHBY18u0w" type="2003" element="_kmHP0J2hEemJENHBY18u0w">
+          <children xmi:type="notation:Node" xmi:id="_kmg4cp2hEemJENHBY18u0w" type="3012" element="_kmaKw52hEemJENHBY18u0w">
+            <children xmi:type="notation:Node" xmi:id="_kmg4dZ2hEemJENHBY18u0w" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_kmg4dp2hEemJENHBY18u0w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kmhfg52hEemJENHBY18u0w" type="3003" element="_kmax0J2hEemJENHBY18u0w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kmhfhJ2hEemJENHBY18u0w" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmhfhZ2hEemJENHBY18u0w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kmg4c52hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmg4dJ2hEemJENHBY18u0w" x="61" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__7v4UJ2uEem-87PekGDpbA" type="3012" element="__6Kj8J2uEem-87PekGDpbA">
+            <children xmi:type="notation:Node" xmi:id="__7wfYJ2uEem-87PekGDpbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__7wfYZ2uEem-87PekGDpbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__7wfYp2uEem-87PekGDpbA" type="3016" element="__6LLAJ2uEem-87PekGDpbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__7wfY52uEem-87PekGDpbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7wfZJ2uEem-87PekGDpbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__7v4UZ2uEem-87PekGDpbA" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7v4Up2uEem-87PekGDpbA" x="108" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fHiqEJ5sEemja4FCRm8mbA" type="3012" element="_fGe6IJ5sEemja4FCRm8mbA">
+            <children xmi:type="notation:Node" xmi:id="_fHjRIJ5sEemja4FCRm8mbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fHjRIZ5sEemja4FCRm8mbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fHjRIp5sEemja4FCRm8mbA" type="3016" element="_fGe6IZ5sEemja4FCRm8mbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fHjRI55sEemja4FCRm8mbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fHjRJJ5sEemja4FCRm8mbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fHiqEZ5sEemja4FCRm8mbA" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fHiqEp5sEemja4FCRm8mbA" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kmgRYJ2hEemJENHBY18u0w" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_kmgRYZ2hEemJENHBY18u0w" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kmgRYp2hEemJENHBY18u0w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kmgRY52hEemJENHBY18u0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kmfqUZ2hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmfqUp2hEemJENHBY18u0w" x="649" y="217" width="118" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_1A184J2hEemJENHBY18u0w" type="2003" element="_1Ahz0J2hEemJENHBY18u0w">
+          <children xmi:type="notation:Node" xmi:id="_1A3LAJ2hEemJENHBY18u0w" type="3012" element="_1Av2Q52hEemJENHBY18u0w">
+            <children xmi:type="notation:Node" xmi:id="_1A3LA52hEemJENHBY18u0w" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1A3LBJ2hEemJENHBY18u0w" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1A3yEJ2hEemJENHBY18u0w" type="3003" element="_1Av2RJ2hEemJENHBY18u0w">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_1A3yEZ2hEemJENHBY18u0w" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1A3yEp2hEemJENHBY18u0w"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1A3LAZ2hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1A3LAp2hEemJENHBY18u0w" x="95" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__7xGcJ2uEem-87PekGDpbA" type="3012" element="__6jlgJ2uEem-87PekGDpbA">
+            <children xmi:type="notation:Node" xmi:id="__7xtgJ2uEem-87PekGDpbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__7xtgZ2uEem-87PekGDpbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__7yUkJ2uEem-87PekGDpbA" type="3016" element="__6kMkJ2uEem-87PekGDpbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__7yUkZ2uEem-87PekGDpbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7yUkp2uEem-87PekGDpbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__7xGcZ2uEem-87PekGDpbA" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__7xGcp2uEem-87PekGDpbA" x="156" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fHj4MJ5sEemja4FCRm8mbA" type="3012" element="_fGvY0J5sEemja4FCRm8mbA">
+            <children xmi:type="notation:Node" xmi:id="_fHj4M55sEemja4FCRm8mbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fHj4NJ5sEemja4FCRm8mbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fHkfQJ5sEemja4FCRm8mbA" type="3016" element="_fGvY0Z5sEemja4FCRm8mbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fHkfQZ5sEemja4FCRm8mbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fHkfQp5sEemja4FCRm8mbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fHj4MZ5sEemja4FCRm8mbA" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fHj4Mp5sEemja4FCRm8mbA" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1A2j8J2hEemJENHBY18u0w" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_1A2j8Z2hEemJENHBY18u0w" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_1A2j8p2hEemJENHBY18u0w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_1A2j852hEemJENHBY18u0w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1A184Z2hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1A184p2hEemJENHBY18u0w" x="680" y="305" width="166" height="60"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_F-0ZkJ2lEem7eKfBuuuawg" type="2003" element="_F8h6kJ2lEem7eKfBuuuawg">
+          <children xmi:type="notation:Node" xmi:id="_F-3c4p2lEem7eKfBuuuawg" type="3012" element="_F-IdEJ2lEem7eKfBuuuawg">
+            <children xmi:type="notation:Node" xmi:id="_F-4D8J2lEem7eKfBuuuawg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_F-4D8Z2lEem7eKfBuuuawg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_F-5SEJ2lEem7eKfBuuuawg" type="3003" element="_F-JEIJ2lEem7eKfBuuuawg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_F-5SEZ2lEem7eKfBuuuawg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-5SEp2lEem7eKfBuuuawg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_F-3c452lEem7eKfBuuuawg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-3c5J2lEem7eKfBuuuawg" x="65" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__77egJ2uEem-87PekGDpbA" type="3012" element="__6tWgp2uEem-87PekGDpbA">
+            <children xmi:type="notation:Node" xmi:id="__78soJ2uEem-87PekGDpbA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__78soZ2uEem-87PekGDpbA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__79TsJ2uEem-87PekGDpbA" type="3016" element="__6t9kJ2uEem-87PekGDpbA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__79TsZ2uEem-87PekGDpbA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__79Tsp2uEem-87PekGDpbA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__77egZ2uEem-87PekGDpbA" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__77egp2uEem-87PekGDpbA" x="130" width="-10" height="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qV7nYJ5nEemtuLO7EWAz9g" type="3012" element="_qUT2wJ5nEemtuLO7EWAz9g">
+            <children xmi:type="notation:Node" xmi:id="_qV8OcJ5nEemtuLO7EWAz9g" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qV8OcZ5nEemtuLO7EWAz9g" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qV81gJ5nEemtuLO7EWAz9g" type="3016" element="_qUT2wZ5nEemtuLO7EWAz9g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qV81gZ5nEemtuLO7EWAz9g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV81gp5nEemtuLO7EWAz9g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qV7nYZ5nEemtuLO7EWAz9g" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qV7nYp5nEemtuLO7EWAz9g" y="-12" width="60" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_F-1AoJ2lEem7eKfBuuuawg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_F-1nsJ2lEem7eKfBuuuawg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_F-1nsZ2lEem7eKfBuuuawg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_F-1nsp2lEem7eKfBuuuawg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_F-0ZkZ2lEem7eKfBuuuawg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-0Zkp2lEem7eKfBuuuawg" x="525" y="565" width="140" height="60"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_9T-LYppZEemT8Z7rFqPUmg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_KCyK4JpbEemT8Z7rFqPUmg" type="4001" element="_KCpA8JpbEemT8Z7rFqPUmg" source="_xGbbAJpaEemT8Z7rFqPUmg" target="_2n_mIJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_KCyK5JpbEemT8Z7rFqPUmg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCyK5ZpbEemT8Z7rFqPUmg" x="-19" y="17"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KCyK5ppbEemT8Z7rFqPUmg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCyK55pbEemT8Z7rFqPUmg" x="18" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KCyK6JpbEemT8Z7rFqPUmg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KCyK6ZpbEemT8Z7rFqPUmg" x="15" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KCyK4ZpbEemT8Z7rFqPUmg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KCyK4ppbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KCyK45pbEemT8Z7rFqPUmg" points="[0, 0, 119, -41]$[-112, 0, 7, -41]$[-112, 29, 7, -12]$[-131, 29, -12, -12]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KCyx8JpbEemT8Z7rFqPUmg" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KCyx8ZpbEemT8Z7rFqPUmg" id="(1.0952380952380953,0.6896551724137931)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LGBJgJpbEemT8Z7rFqPUmg" type="4001" element="_LFygAJpbEemT8Z7rFqPUmg" source="_lrTbgJpaEemT8Z7rFqPUmg" target="_2n_mIJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_LGBJhJpbEemT8Z7rFqPUmg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGBJhZpbEemT8Z7rFqPUmg" x="-37" y="12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LGBwkJpbEemT8Z7rFqPUmg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGBwkZpbEemT8Z7rFqPUmg" x="18" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LGBwkppbEemT8Z7rFqPUmg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGBwk5pbEemT8Z7rFqPUmg" x="17" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LGBJgZpbEemT8Z7rFqPUmg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LGBJgppbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LGBJg5pbEemT8Z7rFqPUmg" points="[0, 0, 107, 77]$[-100, 0, 7, 77]$[-100, -52, 7, 25]$[-119, -52, -12, 25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LGBwlJpbEemT8Z7rFqPUmg" id="(0.0,0.6896551724137931)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LGBwlZpbEemT8Z7rFqPUmg" id="(1.0952380952380953,0.3448275862068966)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_qXjSwJpbEemT8Z7rFqPUmg" type="4001" element="_qXSNBppbEemT8Z7rFqPUmg" source="_Rr_X8JpbEemT8Z7rFqPUmg" target="_V72gEJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_qXjSxJpbEemT8Z7rFqPUmg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qXjSxZpbEemT8Z7rFqPUmg" x="40" y="26"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qXj50JpbEemT8Z7rFqPUmg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qXj50ZpbEemT8Z7rFqPUmg" x="4" y="-37"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qXj50ppbEemT8Z7rFqPUmg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qXj505pbEemT8Z7rFqPUmg" x="-19" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qXjSwZpbEemT8Z7rFqPUmg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qXjSwppbEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qXjSw5pbEemT8Z7rFqPUmg" points="[5, 30, 30, -52]$[5, 62, 30, -20]$[-42, 62, -17, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qXj51JpbEemT8Z7rFqPUmg" id="(0.0,0.6086956521739131)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qXj51ZpbEemT8Z7rFqPUmg" id="(1.140495867768595,0.4827586206896552)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_b5NH8JpdEemT8Z7rFqPUmg" type="4001" element="_b5Cv4JpdEemT8Z7rFqPUmg" source="_1SdrsJpcEemT8Z7rFqPUmg" target="_akqW4JpdEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_b5NH9JpdEemT8Z7rFqPUmg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5NH9ZpdEemT8Z7rFqPUmg" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b5NH9ppdEemT8Z7rFqPUmg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5NH95pdEemT8Z7rFqPUmg" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_b5NvAJpdEemT8Z7rFqPUmg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5NvAZpdEemT8Z7rFqPUmg" x="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_b5NH8ZpdEemT8Z7rFqPUmg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_b5NH8ppdEemT8Z7rFqPUmg" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b5NH85pdEemT8Z7rFqPUmg" points="[-24, 0, -25, 32]$[-24, -32, -25, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b5NvAppdEemT8Z7rFqPUmg" id="(0.717391304347826,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b5NvA5pdEemT8Z7rFqPUmg" id="(0.7608695652173914,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_oAKRoJ2dEemJENHBY18u0w" type="4001" element="_n_hYfJ2dEemJENHBY18u0w" source="_l4-isJ2dEemJENHBY18u0w" target="_TVHHUJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_oAKRpJ2dEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAKRpZ2dEemJENHBY18u0w" x="44" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oAKRpp2dEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAKRp52dEemJENHBY18u0w" x="41" y="51"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oAKRqJ2dEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAKRqZ2dEemJENHBY18u0w" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_oAKRoZ2dEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_oAKRop2dEemJENHBY18u0w" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oAKRo52dEemJENHBY18u0w" points="[-33, -14, -155, 52]$[-33, -94, -155, -28]$[67, -94, -55, -28]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAK4sJ2dEemJENHBY18u0w" id="(1.0,0.2413793103448276)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAK4sZ2dEemJENHBY18u0w" id="(0.4365079365079365,1.2608695652173914)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_sFxcIJ2dEemJENHBY18u0w" type="4001" element="_sFaPwJ2dEemJENHBY18u0w" source="_l4-isJ2dEemJENHBY18u0w" target="_V72gEJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_sFyDMJ2dEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFyDMZ2dEemJENHBY18u0w" x="-13" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sFyDMp2dEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFyDM52dEemJENHBY18u0w" x="20" y="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sFyDNJ2dEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sFyDNZ2dEemJENHBY18u0w" x="5" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_sFxcIZ2dEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_sFxcIp2dEemJENHBY18u0w" fontName="Segoe UI"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sFxcI52dEemJENHBY18u0w" points="[0, -22, -69, 0]$[69, -22, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sFyDNp2dEemJENHBY18u0w" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sFyDN52dEemJENHBY18u0w" id="(0.0,0.603448275862069)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2e-roJ2dEemJENHBY18u0w" type="4001" element="_2ej04J2dEemJENHBY18u0w" source="_l4-isJ2dEemJENHBY18u0w" target="_esHb0JpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_2e_5wJ2dEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2e_5wZ2dEemJENHBY18u0w" x="26" y="-16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2e_5wp2dEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2e_5w52dEemJENHBY18u0w" x="14" y="-65"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2e_5xJ2dEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2e_5xZ2dEemJENHBY18u0w" x="-9" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2e-roZ2dEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2e-rop2dEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2e_SsJ2dEemJENHBY18u0w" points="[30, 0, -102, -60]$[30, 22, -102, -38]$[132, 22, 0, -38]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2fAg0J2dEemJENHBY18u0w" id="(0.5434782608695652,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2fAg0Z2dEemJENHBY18u0w" id="(0.0,0.8275862068965517)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_5TpysJ2dEemJENHBY18u0w" type="4001" element="_5TZ7Ip2dEemJENHBY18u0w" source="_l4-isJ2dEemJENHBY18u0w" target="_2n_mIJpaEemT8Z7rFqPUmg">
+          <children xmi:type="notation:Node" xmi:id="_5TpytJ2dEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5TpytZ2dEemJENHBY18u0w" x="-3" y="-86"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5Tpytp2dEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Tpyt52dEemJENHBY18u0w" x="122" y="-90"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5TpyuJ2dEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5TpyuZ2dEemJENHBY18u0w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5TpysZ2dEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5Tpysp2dEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5Tpys52dEemJENHBY18u0w" points="[35, 0, -120, -157]$[35, 152, -120, -5]$[155, 152, 0, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5TqZwJ2dEemJENHBY18u0w" id="(0.36231884057971014,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5TqZwZ2dEemJENHBY18u0w" id="(0.0,0.7758620689655172)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_o5eicJ2hEemJENHBY18u0w" type="4001" element="_o5LngJ2hEemJENHBY18u0w" source="_V72gEJpaEemT8Z7rFqPUmg" target="_kmfqUJ2hEemJENHBY18u0w">
+          <children xmi:type="notation:Node" xmi:id="_o5eidJ2hEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5eidZ2hEemJENHBY18u0w" x="-7" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o5eidp2hEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5eid52hEemJENHBY18u0w" x="102" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_o5eieJ2hEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5eieZ2hEemJENHBY18u0w" x="19" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_o5eicZ2hEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_o5eicp2hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o5eic52hEemJENHBY18u0w" points="[-17, -8, -156, 20]$[139, -8, 0, 20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o5fJgJ2hEemJENHBY18u0w" id="(1.140495867768595,0.4827586206896552)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o5fJgZ2hEemJENHBY18u0w" id="(0.0,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_4lUJMJ2hEemJENHBY18u0w" type="4001" element="_4lDqmJ2hEemJENHBY18u0w" source="_V72gEJpaEemT8Z7rFqPUmg" target="_1A184J2hEemJENHBY18u0w">
+          <children xmi:type="notation:Node" xmi:id="_4lUwQJ2hEemJENHBY18u0w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4lUwQZ2hEemJENHBY18u0w" x="24" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4lUwQp2hEemJENHBY18u0w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4lUwQ52hEemJENHBY18u0w" x="49" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4lUwRJ2hEemJENHBY18u0w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4lUwRZ2hEemJENHBY18u0w" x="-3" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_4lUJMZ2hEemJENHBY18u0w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_4lUJMp2hEemJENHBY18u0w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4lUJM52hEemJENHBY18u0w" points="[0, 19, -187, -76]$[122, 19, -65, -76]$[122, 79, -65, -16]$[187, 79, 0, -16]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4lUwRp2hEemJENHBY18u0w" id="(1.0,0.6379310344827587)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4lUwR52hEemJENHBY18u0w" id="(0.0,0.7586206896551724)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_VL9SIJ2lEem7eKfBuuuawg" type="4001" element="_VKeEYJ2lEem7eKfBuuuawg" source="_akqW4JpdEemT8Z7rFqPUmg" target="_F-0ZkJ2lEem7eKfBuuuawg">
+          <children xmi:type="notation:Node" xmi:id="_VL95MJ2lEem7eKfBuuuawg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VL95MZ2lEem7eKfBuuuawg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VL95Mp2lEem7eKfBuuuawg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VL95M52lEem7eKfBuuuawg" x="41" y="12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VL95NJ2lEem7eKfBuuuawg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VL95NZ2lEem7eKfBuuuawg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_VL9SIZ2lEem7eKfBuuuawg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VL9SIp2lEem7eKfBuuuawg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VL9SI52lEem7eKfBuuuawg" points="[0, 0, -107, 0]$[107, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VL95Np2lEem7eKfBuuuawg" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VL95N52lEem7eKfBuuuawg" id="(0.0,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_TUwiAJpaEemT8Z7rFqPUmg" name="ReceiveClaimTask" incomingEdges="_n_hYfJ2dEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ReceiveClaimTask"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ReceiveClaimTask"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_TVC14JpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_TVC14ZpaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_aJlr0JpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_aJmS4JpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qTnTMJ5nEemtuLO7EWAz9g" name="Task@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%type=Task@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReceiveClaimTask/%type=Task@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qTn6QJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_TUwiAZpaEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_V7mBYJpaEemT8Z7rFqPUmg" name="AssessClaimTask" outgoingEdges="_o5LngJ2hEemJENHBY18u0w _4lDqmJ2hEemJENHBY18u0w" incomingEdges="_qXSNBppbEemT8Z7rFqPUmg _sFaPwJ2dEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//AssessClaimTask"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//AssessClaimTask"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_V7yOoZpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_V7yOoppaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_aJjPkJpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_aJjPkZpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qUOXMJ5nEemtuLO7EWAz9g" name="Task@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%type=Task@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AssessClaimTask/%type=Task@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qUO-QJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_V7mocJpaEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_er6AcJpaEemT8Z7rFqPUmg" name="PayPremiumTask" incomingEdges="_2ej04J2dEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//PayPremiumTask"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//PayPremiumTask"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_er8csJpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_er8csZpaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_er9q0JpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_er-R4JpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qThMkJ5nEemtuLO7EWAz9g" name="Task@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%type=Task@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//PayPremiumTask/%type=Task@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qThMkZ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_er6AcZpaEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_lrEK8JpaEemT8Z7rFqPUmg" name="ClaimHandlingManagerRole" outgoingEdges="_LFygAJpbEemT8Z7rFqPUmg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimHandlingManagerRole"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimHandlingManagerRole"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrQYMJpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_lrQ_QJpaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_vZO5YJpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_vZPgcJpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qTWNcJ5nEemtuLO7EWAz9g" name="Role@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%type=Role@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandlingManagerRole/%type=Role@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qTW0gJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_lrEyAJpaEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_xGOmuJpaEemT8Z7rFqPUmg" name="FinancialOfficerRole" outgoingEdges="_KCpA8JpbEemT8Z7rFqPUmg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//FinancialOfficerRole"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//FinancialOfficerRole"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_xGQb4JpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_xGQb4ZpaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_xGRC8JpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_xGRC8ZpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qT_GoJ5nEemtuLO7EWAz9g" name="Role@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%type=Role@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//FinancialOfficerRole/%type=Role@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qT_tsJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_xGOmuZpaEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_2nwVmppaEemT8Z7rFqPUmg" name="AuthorizePaymentTask" incomingEdges="_KCpA8JpbEemT8Z7rFqPUmg _LFygAJpbEemT8Z7rFqPUmg _5TZ7Ip2dEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//AuthorizePaymentTask"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//AuthorizePaymentTask"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2nxjsJpaEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_2nxjsZpaEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2nyKwZpaEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_2nyx0JpaEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qUD_IJ5nEemtuLO7EWAz9g" name="Task@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%type=Task@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//AuthorizePaymentTask/%type=Task@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qUEmMJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2nwVm5paEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KCpA8JpbEemT8Z7rFqPUmg" name="executes@1-1-*" sourceNode="_xGOmuJpaEemT8Z7rFqPUmg" targetNode="_2nwVmppaEemT8Z7rFqPUmg" beginLabel="executes@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//FinancialOfficerRole/executes"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//FinancialOfficerRole/executes"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_KCpA8ZpbEemT8Z7rFqPUmg" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_KCpA8ppbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_KCpA85pbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LFygAJpbEemT8Z7rFqPUmg" name="executes@1-1-*" sourceNode="_lrEK8JpaEemT8Z7rFqPUmg" targetNode="_2nwVmppaEemT8Z7rFqPUmg" beginLabel="executes@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandlingManagerRole/executes"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandlingManagerRole/executes"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LFygAZpbEemT8Z7rFqPUmg" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_LFygAppbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LFygA5pbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_RrzxwJpbEemT8Z7rFqPUmg" name="BenBoss" outgoingEdges="_qXSNBppbEemT8Z7rFqPUmg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//BenBoss"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//BenBoss"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_Rr7tkppbEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Rr7tk5pbEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_S2QLoJpbEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_S2QLoZpbEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qTQt4J5nEemtuLO7EWAz9g" name="Actor@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%type=Actor@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//BenBoss/%type=Actor@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qTRU8J5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rr0Y0JpbEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qXSNBppbEemT8Z7rFqPUmg" name="creates@1-1-*" sourceNode="_RrzxwJpbEemT8Z7rFqPUmg" targetNode="_V7mBYJpaEemT8Z7rFqPUmg" beginLabel="creates@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//BenBoss/creates"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//BenBoss/creates"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qXS0EJpbEemT8Z7rFqPUmg" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_qXS0EZpbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qXS0EppbEemT8Z7rFqPUmg" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1SQQUJpcEemT8Z7rFqPUmg" name="SeniorManagerRole" outgoingEdges="_b5Cv4JpdEemT8Z7rFqPUmg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//SeniorManagerRole"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//SeniorManagerRole"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1SbPcJpcEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%potency=1-1-*%"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_1SbPcZpcEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2frswppcEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_2fsT0JpcEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qTsywJ5nEemtuLO7EWAz9g" name="SeniorRole@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%type=SeniorRole@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//SeniorManagerRole/%type=SeniorRole@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qTtZ0J5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1SQQUZpcEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_2ynP0JpcEemT8Z7rFqPUmg" name="ProjectLeaderRole" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ProjectLeaderRole"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ProjectLeaderRole"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2yy2AZpcEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%potency=1-1-*%"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_2yy2AppcEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4DuSYJpcEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_4DuSYZpcEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qUI3oJ5nEemtuLO7EWAz9g" name="Role@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%type=Role@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ProjectLeaderRole/%type=Role@2%"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qUJesJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2ynP0ZpcEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_akcUcJpdEemT8Z7rFqPUmg" name="ManagerRole" outgoingEdges="_VKeEYJ2lEem7eKfBuuuawg" incomingEdges="_b5Cv4JpdEemT8Z7rFqPUmg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ManagerRole"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ManagerRole"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_akmsgJpdEemT8Z7rFqPUmg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_akmsgZpdEemT8Z7rFqPUmg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_bbVgMJpdEemT8Z7rFqPUmg" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_bbVgMZpdEemT8Z7rFqPUmg" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qSkKUJ5nEemtuLO7EWAz9g" name="Role@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%type=Role@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ManagerRole/%type=Role@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qSt7UJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_akcUcZpdEemT8Z7rFqPUmg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b5Cv4JpdEemT8Z7rFqPUmg" sourceNode="_1SQQUJpcEemT8Z7rFqPUmg" targetNode="_akcUcJpdEemT8Z7rFqPUmg">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//SeniorManagerRole"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b5Cv4ZpdEemT8Z7rFqPUmg" targetArrow="InputClosedArrow" size="2" routingStyle="manhattan">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReferenceInheritance']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReferenceInheritance']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_l30sIJ2dEemJENHBY18u0w" name="ClaimHandling" outgoingEdges="_n_hYfJ2dEemJENHBY18u0w _sFaPwJ2dEemJENHBY18u0w _2ej04J2dEemJENHBY18u0w _5TZ7Ip2dEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimHandling"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimHandling"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_l4qZop2dEemJENHBY18u0w" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_l4qZo52dEemJENHBY18u0w" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="__6RRoJ2uEem-87PekGDpbA" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="__6RRoZ2uEem-87PekGDpbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qTbF8J5nEemtuLO7EWAz9g" name="Process@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%type=Process@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimHandling/%type=Process@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qTbtAJ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_l30sIZ2dEemJENHBY18u0w" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_n_hYfJ2dEemJENHBY18u0w" name="c_rc@1-1-*" sourceNode="_l30sIJ2dEemJENHBY18u0w" targetNode="_TUwiAJpaEemT8Z7rFqPUmg" beginLabel="contains@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_rc"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_rc"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_n_h_gJ2dEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_n_h_gZ2dEemJENHBY18u0w" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_n_h_gp2dEemJENHBY18u0w" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_sFaPwJ2dEemJENHBY18u0w" name="c_ac@1-1-*" sourceNode="_l30sIJ2dEemJENHBY18u0w" targetNode="_V7mBYJpaEemT8Z7rFqPUmg" beginLabel="contains@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_ac"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_ac"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_sFaPwZ2dEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_sFaPwp2dEemJENHBY18u0w" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_sFaPw52dEemJENHBY18u0w" labelSize="9" showIcon="false">
+          <customFeatures>labelSize</customFeatures>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2ej04J2dEemJENHBY18u0w" name="c_pp@1-1-*" sourceNode="_l30sIJ2dEemJENHBY18u0w" targetNode="_er6AcJpaEemT8Z7rFqPUmg" beginLabel="contains@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_pp"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_pp"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2ej04Z2dEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_2ej04p2dEemJENHBY18u0w" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2ej0452dEemJENHBY18u0w" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5TZ7Ip2dEemJENHBY18u0w" name="c_ap@1-1-*" sourceNode="_l30sIJ2dEemJENHBY18u0w" targetNode="_2nwVmppaEemT8Z7rFqPUmg" beginLabel="contains@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_ap"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ClaimHandling/c_ap"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5TZ7I52dEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_5TZ7JJ2dEemJENHBY18u0w" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5TZ7JZ2dEemJENHBY18u0w" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kmHP0J2hEemJENHBY18u0w" name="ClaimArtifact" incomingEdges="_o5LngJ2hEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimArtifact"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimArtifact"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_kmaKw52hEemJENHBY18u0w" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%potency=1-1-*%"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_kmax0J2hEemJENHBY18u0w" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="__6Kj8J2uEem-87PekGDpbA" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="__6LLAJ2uEem-87PekGDpbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_fGe6IJ5sEemja4FCRm8mbA" name="IArtifact" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%type=IArtifact%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimArtifact/%type=IArtifact%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_fGe6IZ5sEemja4FCRm8mbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kmHP0Z2hEemJENHBY18u0w" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_o5LngJ2hEemJENHBY18u0w" name="uses@1-1-*" sourceNode="_V7mBYJpaEemT8Z7rFqPUmg" targetNode="_kmHP0J2hEemJENHBY18u0w" beginLabel="uses@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//AssessClaimTask/uses"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//AssessClaimTask/uses"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_o5LngZ2hEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_o5Lngp2hEemJENHBY18u0w" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_o5Lng52hEemJENHBY18u0w" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1Ahz0J2hEemJENHBY18u0w" name="ClaimPaymentDecisionArtifact" incomingEdges="_4lDqmJ2hEemJENHBY18u0w" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1Av2Q52hEemJENHBY18u0w" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_1Av2RJ2hEemJENHBY18u0w" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="__6jlgJ2uEem-87PekGDpbA" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="__6kMkJ2uEem-87PekGDpbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_fGvY0J5sEemja4FCRm8mbA" name="IArtifact" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%type=IArtifact%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ClaimPaymentDecisionArtifact/%type=IArtifact%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_fGvY0Z5sEemja4FCRm8mbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1Aia4J2hEemJENHBY18u0w" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4lDqmJ2hEemJENHBY18u0w" name="produces@1-1-*" sourceNode="_V7mBYJpaEemT8Z7rFqPUmg" targetNode="_1Ahz0J2hEemJENHBY18u0w" beginLabel="produces@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//AssessClaimTask/produces"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//AssessClaimTask/produces"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_4lERkJ2hEemJENHBY18u0w" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_4lERkZ2hEemJENHBY18u0w" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_4lERkp2hEemJENHBY18u0w" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_F8h6kJ2lEem7eKfBuuuawg" name="ReviewClaimTask" incomingEdges="_VKeEYJ2lEem7eKfBuuuawg" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="insurance_process.ecore#//ReviewClaimTask"/>
+      <semanticElements xmi:type="ecore:EClass" href="insurance_process.ecore#//ReviewClaimTask"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_F-IdEJ2lEem7eKfBuuuawg" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%potency=1-1-*%"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_F-JEIJ2lEem7eKfBuuuawg" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="__6tWgp2uEem-87PekGDpbA" tooltipText="Suptypes" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="__6t9kJ2uEem-87PekGDpbA" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="-1" verticalDiameter="-1" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qUT2wJ5nEemtuLO7EWAz9g" name="Task@2" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%type=Task@2%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="insurance_process.ecore#//ReviewClaimTask/%type=Task@2%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_qUT2wZ5nEemtuLO7EWAz9g" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_F8ihoJ2lEem7eKfBuuuawg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_VKeEYJ2lEem7eKfBuuuawg" name="executes@1-1-*" sourceNode="_akcUcJpdEemT8Z7rFqPUmg" targetNode="_F8h6kJ2lEem7eKfBuuuawg" beginLabel="executes@2">
+      <target xmi:type="ecore:EReference" href="insurance_process.ecore#//ManagerRole/executes"/>
+      <semanticElements xmi:type="ecore:EReference" href="insurance_process.ecore#//ManagerRole/executes"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_VKeEYZ2lEem7eKfBuuuawg" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_VKeEYp2lEem7eKfBuuuawg" showIcon="false">
+          <labelFormat>italic</labelFormat>
+        </beginLabelStyle>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_VKeEY52lEem7eKfBuuuawg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@edgeMappings[name='EReference']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_9S-F0JpZEemT8Z7rFqPUmg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer"/>
+    <target xmi:type="ecore:EPackage" href="insurance_process.ecore#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

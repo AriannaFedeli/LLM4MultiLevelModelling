@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<insurance_process_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:insurance_process_metamodel="insurance_process_metamodel" __metamodels="insurance_meta_process">
+  <__contains xsi:type="insurance_process_metamodel:process__Role" __name="ManagerRole" __relationNames="process__executes__process__Task,ReviewClaimTask=executes,0,-1,1-1-*,false" __potency="1-1-*" process__executes__process__Task="//@__contains.9"/>
+  <__contains xsi:type="insurance_process_metamodel:IArtifact" __name="ClaimArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Actor" __name="BenBoss" __relationNames="process__creates__process__Task,AssessClaimTask=creates,0,-1,1-1-*,false" __potency="1-1-*" process__creates__process__Task="//@__contains.4/@process__contains__process__Task.0"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Role" __name="ClaimHandlingManagerRole" __relationNames="process__executes__process__Task,AuthorizePaymentTask=executes,0,-1,1-1-*,false" __potency="1-1-*" process__executes__process__Task="//@__contains.4/@process__contains__process__Task.2"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Process" __name="ClaimHandling" __relationNames="process__contains__process__Task,AssessClaimTask=c_ac,0,-1,1-1-*,false;process__contains__process__Task,ReceiveClaimTask=c_rc,0,-1,1-1-*,false;process__contains__process__Task,AuthorizePaymentTask=c_ap,0,-1,1-1-*,false;process__contains__process__Task,PayPremiumTask=c_pp,0,-1,1-1-*,false" __potency="1-1-*">
+    <process__contains__process__Task __name="AssessClaimTask" __relationNames="process__produces__IArtifact,ClaimPaymentDecisionArtifact=produces,0,-1,1-1-*,false;process__uses__IArtifact,ClaimArtifact=uses,0,-1,1-1-*,false" __potency="1-1-*" process__produces__IArtifact="//@__contains.5" process__uses__IArtifact="//@__contains.1"/>
+    <process__contains__process__Task __name="ReceiveClaimTask" __potency="1-1-*"/>
+    <process__contains__process__Task __name="AuthorizePaymentTask" __potency="1-1-*"/>
+    <process__contains__process__Task __name="PayPremiumTask" __potency="1-1-*"/>
+  </__contains>
+  <__contains xsi:type="insurance_process_metamodel:IArtifact" __name="ClaimPaymentDecisionArtifact" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Role" __name="SeniorManagerRole" __potency="1-1-*" __parentNodes="ManagerRole;"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Role" __name="FinancialOfficerRole" __relationNames="process__executes__process__Task,AuthorizePaymentTask=executes,0,-1,1-1-*,false" __potency="1-1-*" process__executes__process__Task="//@__contains.4/@process__contains__process__Task.2"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Role" __name="ProjectLeaderRole" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_metamodel:process__Task" __name="ReviewClaimTask" __potency="1-1-*"/>
+</insurance_process_metamodel:Root>

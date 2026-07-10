@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<insurance_process_conf_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:insurance_process_conf_metamodel="insurance_process_conf_metamodel" __metamodels="insurance_process">
+  <__contains xsi:type="insurance_process_conf_metamodel:process__Actor" __name="JohnSmith" __relationNames="process__performs__ReviewClaimTask,ReviewingClaim123=performs,0,-1,1-1-*,false;process__hasRole__ProjectLeaderRole,ProjectLeader=isPL,0,-1,1-1-*,false;process__hasRole__SeniorManagerRole,SeniorManager=isSM,0,-1,1-1-*,false" __potency="1-1-*" process__performs__ReviewClaimTask="//@__contains.1" process__hasRole__ProjectLeaderRole="//@__contains.4" process__hasRole__SeniorManagerRole="//@__contains.2"/>
+  <__contains xsi:type="insurance_process_conf_metamodel:ReviewClaimTask" __name="ReviewingClaim123" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_conf_metamodel:SeniorManagerRole" __name="SeniorManager" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_conf_metamodel:process__Actor" __name="PaulAlter" __relationNames="process__performs__AssessClaimTask,AssesssingClaim123=performs,0,-1,1-1-*,false" __potency="1-1-*" process__performs__AssessClaimTask="//@__contains.5"/>
+  <__contains xsi:type="insurance_process_conf_metamodel:ProjectLeaderRole" __name="ProjectLeader" __potency="1-1-*"/>
+  <__contains xsi:type="insurance_process_conf_metamodel:AssessClaimTask" __name="AssesssingClaim123" __potency="1-1-*" beginDate="01-Jan-19" endDate="02-Jan-19"/>
+</insurance_process_conf_metamodel:Root>

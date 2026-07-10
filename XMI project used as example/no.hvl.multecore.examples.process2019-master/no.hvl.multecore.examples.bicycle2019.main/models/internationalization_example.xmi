@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<internationalization_example_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:internationalization_example_metamodel="internationalization_example_metamodel" __metamodels="insurance_process">
+  <__supplementaries>no.hvl.multecore.examples.bicycle2019.supp.languages:languages</__supplementaries>
+  <__contains xsi:type="internationalization_example_metamodel:ReviewClaimTask" __name="ReviewingClaim123" __potency="1-1-*">
+    <__supplementaryNodes>languages:LanguageNames</__supplementaryNodes>
+  </__contains>
+</internationalization_example_metamodel:Root>

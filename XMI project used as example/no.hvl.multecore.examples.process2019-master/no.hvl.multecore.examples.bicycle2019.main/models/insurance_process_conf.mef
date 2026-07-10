@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="insurance_process">
+  <Elements>
+    <JohnSmith isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Actor@3"/>
+    <ReviewingClaim123 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="ReviewClaimTask"/>
+    <SeniorManager isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="SeniorManagerRole"/>
+    <PaulAlter isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Actor@3"/>
+    <ProjectLeader isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="ProjectLeaderRole"/>
+    <AssesssingClaim123 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="AssessClaimTask">
+      <beginDate value="01-Jan-19"/>
+      <endDate value="02-Jan-19"/>
+    </AssesssingClaim123>
+  </Elements>
+  <Relations>
+    <isSM containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="JohnSmith" target="SeniorManager" type="hasRole@3" upperBound="-1"/>
+    <performs containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="PaulAlter" target="AssesssingClaim123" type="performs@3" upperBound="-1"/>
+    <performs containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="JohnSmith" target="ReviewingClaim123" type="performs@3" upperBound="-1"/>
+    <isPL containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="JohnSmith" target="ProjectLeader" type="hasRole@3" upperBound="-1"/>
+  </Relations>
+</Model>

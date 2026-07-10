@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="process">
+  <Elements>
+    <IActor isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="-1" potencyStart="2" type="Actor">
+      <supID isId="false" lowerBound="0" potencyDepth="1" potencyEnd="2" potencyStart="2" type="String" upperBound="1"/>
+    </IActor>
+    <IArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact"/>
+  </Elements>
+  <Relations>
+    <supervisorActor containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="-1" potencyStart="2" source="IActor" target="IArtifact" type="EReference" upperBound="-1"/>
+  </Relations>
+</Model>

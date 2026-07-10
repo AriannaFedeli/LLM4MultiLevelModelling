@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="insurance_meta_process">
+  <Elements>
+    <ManagerRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <ClaimArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="IArtifact"/>
+    <BenBoss isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Actor@2"/>
+    <ClaimHandlingManagerRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <ClaimHandling isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Process@2"/>
+    <PayPremiumTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <ClaimPaymentDecisionArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="IArtifact"/>
+    <ReceiveClaimTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <SeniorManagerRole isAbstract="false" parentNodes="ManagerRole;" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <FinancialOfficerRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <AuthorizePaymentTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <ProjectLeaderRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <AssessClaimTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <ReviewClaimTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+  </Elements>
+  <Relations>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AssessClaimTask" target="ClaimPaymentDecisionArtifact" type="produces@2" upperBound="-1"/>
+    <executes containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ManagerRole" target="ReviewClaimTask" type="executes@2" upperBound="-1"/>
+    <c_ac containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ClaimHandling" target="AssessClaimTask" type="contains@2" upperBound="-1"/>
+    <creates containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="BenBoss" target="AssessClaimTask" type="creates@2" upperBound="-1"/>
+    <c_rc containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ClaimHandling" target="ReceiveClaimTask" type="contains@2" upperBound="-1"/>
+    <c_ap containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ClaimHandling" target="AuthorizePaymentTask" type="contains@2" upperBound="-1"/>
+    <executes containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ClaimHandlingManagerRole" target="AuthorizePaymentTask" type="executes@2" upperBound="-1"/>
+    <uses containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AssessClaimTask" target="ClaimArtifact" type="uses@2" upperBound="-1"/>
+    <c_pp containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ClaimHandling" target="PayPremiumTask" type="contains@2" upperBound="-1"/>
+    <executes containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="FinancialOfficerRole" target="AuthorizePaymentTask" type="executes@2" upperBound="-1"/>
+  </Relations>
+</Model>

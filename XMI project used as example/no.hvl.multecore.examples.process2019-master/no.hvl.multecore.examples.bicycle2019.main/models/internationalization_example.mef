@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model lm="no.hvl.multecore.examples.bicycle2019.supp.languages:languages" om="insurance_process">
+  <Elements>
+    <ReviewingClaim123 isAbstract="false" languages="LanguageNames" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="ReviewClaimTask">
+      <englishName value="Reviewing claim 123"/>
+      <spanishName value="Revisar reclamacion 123"/>
+    </ReviewingClaim123>
+  </Elements>
+  <Relations/>
+</Model>

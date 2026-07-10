@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="Ecore">
+  <Elements>
+    <TechnologyNames isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="EClass">
+      <bpmnName isId="false" lowerBound="0" potencyDepth="1" potencyEnd="1" potencyStart="1" type="String" upperBound="1"/>
+      <umlName isId="false" lowerBound="0" potencyDepth="1" potencyEnd="1" potencyStart="1" type="String" upperBound="1"/>
+    </TechnologyNames>
+  </Elements>
+  <Relations/>
+</Model>

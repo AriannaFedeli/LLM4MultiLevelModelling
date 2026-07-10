@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="software_engineering_process">
+  <Elements>
+    <Test isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="TesterRole"/>
+    <Tester isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="TesterRole"/>
+    <AnnSmith isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Actor@3"/>
+    <COBOL isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="ProgLangArtifact"/>
+  </Elements>
+  <Relations/>
+</Model>

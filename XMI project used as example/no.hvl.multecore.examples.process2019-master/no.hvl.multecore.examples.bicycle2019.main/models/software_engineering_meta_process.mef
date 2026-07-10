@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="process">
+  <Elements>
+    <SEActor isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="-1" potencyStart="2" type="Actor"/>
+    <SEArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact">
+      <versionNumber isId="false" lowerBound="0" potencyDepth="1" potencyEnd="2" potencyStart="2" type="String" upperBound="1"/>
+    </SEArtifact>
+  </Elements>
+  <Relations>
+    <responsibleActor containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="-1" potencyStart="2" source="SEActor" target="SEArtifact" type="EReference" upperBound="1"/>
+  </Relations>
+</Model>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="Ecore">
+  <Elements>
+    <Task isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass">
+      <beginDate isId="false" lowerBound="0" potencyDepth="1" potencyEnd="-1" potencyStart="3" type="String" upperBound="1"/>
+      <endDate isId="false" lowerBound="0" potencyDepth="1" potencyEnd="-1" potencyStart="3" type="String" upperBound="1"/>
+      <expectedDuration isId="false" lowerBound="0" potencyDepth="1" potencyEnd="2" potencyStart="2" type="Integer" upperBound="1"/>
+      <isCritical isId="false" lowerBound="0" potencyDepth="1" potencyEnd="2" potencyStart="2" type="Boolean" upperBound="1"/>
+    </Task>
+    <Gateway isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <FinalTask isAbstract="false" parentNodes="Task;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <InitTask isAbstract="false" parentNodes="Task;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <Actor isAbstract="false" parentNodes="" potencyDepth="1" potencyEnd="-1" potencyStart="1" type="EClass"/>
+    <Artifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <AbstractRole isAbstract="true" parentNodes="" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <AndJoin isAbstract="false" parentNodes="Gateway;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <Process isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="-1" potencyStart="1" type="EClass"/>
+    <OrJoin isAbstract="false" parentNodes="Gateway;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <OrSplit isAbstract="false" parentNodes="Gateway;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <AndSplit isAbstract="false" parentNodes="Gateway;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <Sequence isAbstract="false" parentNodes="Gateway;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <Role isAbstract="false" parentNodes="AbstractRole;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <CombinedRole isAbstract="false" parentNodes="AbstractRole;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+    <SeniorRole isAbstract="false" parentNodes="Role;" potencyDepth="-1" potencyEnd="2" potencyStart="1" type="EClass"/>
+  </Elements>
+  <Relations>
+    <hasRole containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="-1" potencyStart="1" source="Actor" target="AbstractRole" type="EReference" upperBound="-1"/>
+    <creates containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="-1" potencyStart="2" source="Actor" target="Task" type="EReference" upperBound="-1"/>
+    <initialTask containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Process" target="InitTask" type="EReference" upperBound="1"/>
+    <includes containment="true" lowerBound="2" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="CombinedRole" target="AbstractRole" type="EReference" upperBound="-1"/>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Task" target="Artifact" type="EReference" upperBound="-1"/>
+    <uses containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Task" target="Artifact" type="EReference" upperBound="-1"/>
+    <source containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Gateway" target="Task" type="EReference" upperBound="-1"/>
+    <performs containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="-1" potencyStart="3" source="Actor" target="Task" type="EReference" upperBound="-1"/>
+    <target containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Gateway" target="Task" type="EReference" upperBound="-1"/>
+    <executes containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="AbstractRole" target="Task" type="EReference" upperBound="-1"/>
+    <finalTask containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="2" potencyStart="1" source="Process" target="FinalTask" type="EReference" upperBound="-1"/>
+    <contains containment="true" lowerBound="1" potencyDepth="-1" potencyEnd="-1" potencyStart="1" source="Process" target="Task" type="EReference" upperBound="-1"/>
+  </Relations>
+</Model>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<software_engineering_process_conf_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:software_engineering_process_conf_metamodel="software_engineering_process_conf_metamodel" __metamodels="software_engineering_process">
+  <__contains xsi:type="software_engineering_process_conf_metamodel:TesterRole" __name="Test" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_conf_metamodel:TesterRole" __name="Tester" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_conf_metamodel:process__Actor" __name="AnnSmith" __potency="1-1-*"/>
+  <__contains xsi:type="software_engineering_process_conf_metamodel:ProgLangArtifact" __name="COBOL" __potency="1-1-*"/>
+</software_engineering_process_conf_metamodel:Root>

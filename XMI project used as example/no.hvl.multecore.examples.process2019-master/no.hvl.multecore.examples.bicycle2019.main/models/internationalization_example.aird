@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_szNh4J8GEemrv9G0H3nnUQ" selectedViews="_s2lmAJ8GEemrv9G0H3nnUQ" version="14.1.0.201810161215">
+    <semanticResources>internationalization_example.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_s2lmAJ8GEemrv9G0H3nnUQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_s4WgkZ8GEemrv9G0H3nnUQ" name="metamodelDiagram" repPath="#_s22rwJ8GEemrv9G0H3nnUQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']"/>
+        <target xmi:type="ecore:EPackage" href="internationalization_example.ecore#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_s22rwJ8GEemrv9G0H3nnUQ" name="metamodelDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s4V5gJ8GEemrv9G0H3nnUQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_s4V5gZ8GEemrv9G0H3nnUQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s4XHoJ8GEemrv9G0H3nnUQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_s4XHoZ8GEemrv9G0H3nnUQ" type="Sirius" element="_s22rwJ8GEemrv9G0H3nnUQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_s4YVwJ8GEemrv9G0H3nnUQ" type="2003" element="_s3GjYJ8GEemrv9G0H3nnUQ">
+          <children xmi:type="notation:Node" xmi:id="_s4Y81J8GEemrv9G0H3nnUQ" type="3012" element="_s3NREJ8GEemrv9G0H3nnUQ">
+            <children xmi:type="notation:Node" xmi:id="_s4Zj4J8GEemrv9G0H3nnUQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_s4Zj4Z8GEemrv9G0H3nnUQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_s4bZEJ8GEemrv9G0H3nnUQ" type="3016" element="_s3aFYJ8GEemrv9G0H3nnUQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_s4bZEZ8GEemrv9G0H3nnUQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4bZEp8GEemrv9G0H3nnUQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s4Y81Z8GEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="7" italic="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4Y81p8GEemrv9G0H3nnUQ" y="-12" width="81" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4aK8J8GEemrv9G0H3nnUQ" type="3012" element="_s3qkEJ8GEemrv9G0H3nnUQ">
+            <children xmi:type="notation:Node" xmi:id="_s4aK858GEemrv9G0H3nnUQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_s4aK9J8GEemrv9G0H3nnUQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_s4cAIJ8GEemrv9G0H3nnUQ" type="3003" element="_s3qkEZ8GEemrv9G0H3nnUQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_s4cAIZ8GEemrv9G0H3nnUQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4cAIp8GEemrv9G0H3nnUQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s4aK8Z8GEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4aK8p8GEemrv9G0H3nnUQ" x="108" y="-12" width="30" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4ayAJ8GEemrv9G0H3nnUQ" type="3012" element="_s4MvkJ8GEemrv9G0H3nnUQ">
+            <children xmi:type="notation:Node" xmi:id="_s4ayA58GEemrv9G0H3nnUQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_s4ayBJ8GEemrv9G0H3nnUQ" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jq1EQJ8KEemrv9G0H3nnUQ" type="3016" element="_jqwy0Z8KEemrv9G0H3nnUQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jq1EQZ8KEemrv9G0H3nnUQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jq1EQp8KEemrv9G0H3nnUQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s4ayAZ8GEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4ayAp8GEemrv9G0H3nnUQ" x="130" y="9" width="86" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s4Y80J8GEemrv9G0H3nnUQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_s4Y80Z8GEemrv9G0H3nnUQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_pdyhYJ8KEemrv9G0H3nnUQ" type="3010" element="_pdp-gJ8KEemrv9G0H3nnUQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_pdyhYZ8KEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_pdyhYp8KEemrv9G0H3nnUQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_s0pvgJ8KEemrv9G0H3nnUQ" type="3010" element="_s0nTQZ8KEemrv9G0H3nnUQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_s0pvgZ8KEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_s0pvgp8KEemrv9G0H3nnUQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_s4Y80p8GEemrv9G0H3nnUQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_s4Y8058GEemrv9G0H3nnUQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s4YVwZ8GEemrv9G0H3nnUQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s4YVwp8GEemrv9G0H3nnUQ" x="25" y="35"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_s4XHop8GEemrv9G0H3nnUQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_s3GjYJ8GEemrv9G0H3nnUQ" name="ReviewingClaim123" width="14" height="6">
+      <target xmi:type="ecore:EClass" href="internationalization_example.ecore#//ReviewingClaim123"/>
+      <semanticElements xmi:type="ecore:EClass" href="internationalization_example.ecore#//ReviewingClaim123"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_s3NREJ8GEemrv9G0H3nnUQ" name="ReviewClaimTask" tooltipText="Metatype" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%type=ReviewClaimTask%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%type=ReviewClaimTask%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_s3aFYJ8GEemrv9G0H3nnUQ" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="194,239,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Type']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_s3qkEJ8GEemrv9G0H3nnUQ" name="1-1-*" tooltipText="Potency" width="3" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%potency=1-1-*%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%potency=1-1-*%"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_s3qkEZ8GEemrv9G0H3nnUQ" showIcon="false" labelPosition="node" width="3" height="2" color="246,139,139">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='Potency']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_s4MvkJ8GEemrv9G0H3nnUQ" name="LanguageNames" tooltipText="Suptypes" width="6" height="2" resizeKind="NSEW">
+        <target xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%suptypes%"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="internationalization_example.ecore#//ReviewingClaim123/%suptypes%"/>
+        <ownedStyle xmi:type="diagram:Ellipse" uid="_jqwy0Z8KEemrv9G0H3nnUQ" labelSize="7" showIcon="false" labelPosition="node" horizontalDiameter="6" verticalDiameter="2" color="204,242,166">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']/@conditionnalStyles.1/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@borderedNodeMappings[name='SupTypes']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_s3HKcJ8GEemrv9G0H3nnUQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="255,245,181" foregroundColor="255,245,181">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_pdp-gJ8KEemrv9G0H3nnUQ" name="englishName=Reviewing claim 123">
+        <target xmi:type="ecore:EAttribute" href="internationalization_example.ecore#//ReviewingClaim123/englishName"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="internationalization_example.ecore#//ReviewingClaim123/englishName"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_pdu3AJ8KEemrv9G0H3nnUQ" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@subNodeMappings[name='Instantiated%20Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@subNodeMappings[name='Instantiated%20Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_s0nTQZ8KEemrv9G0H3nnUQ" name="spanishName=Revisar reclamacion 123">
+        <target xmi:type="ecore:EAttribute" href="internationalization_example.ecore#//ReviewingClaim123/spanishName"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="internationalization_example.ecore#//ReviewingClaim123/spanishName"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_s0nTQp8KEemrv9G0H3nnUQ" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@subNodeMappings[name='Instantiated%20Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer/@containerMappings[name='EClass']/@subNodeMappings[name='Instantiated%20Attribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_s22rwZ8GEemrv9G0H3nnUQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/no.hvl.multecore.editor/description/multEcore.odesign#//@ownedViewpoints[name='metamodelViewpoint']/@ownedRepresentations[name='metamodelDiagram']/@defaultLayer"/>
+    <target xmi:type="ecore:EPackage" href="internationalization_example.ecore#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

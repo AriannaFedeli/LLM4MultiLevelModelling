@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="process" nsURI="process" nsPrefix="process">
+  <eClassifiers xsi:type="ecore:EClass" name="Root">
+    <eAnnotations source="om=Ecore"/>
+    <eAnnotations source="lm">
+      <details key="no.hvl.multecore.examples.bicycle2019.supp.languages" value=""/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__metamodels" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__supplementaries" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="__contains" upperBound="-1"
+        eType="#//EClass" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EClass">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__name" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__relationNames" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__potency" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="1-1-*"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__parentNodes" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__isAbstract" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__attributeNames" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="__supplementaryNodes" upperBound="-1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EReference" upperBound="-1"
+        eType="#//EClass"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Task" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="beginDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="potency">
+        <details key="potencyStart" value="3"/>
+        <details key="potencyEnd" value="*"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endDate" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="potency">
+        <details key="potencyStart" value="3"/>
+        <details key="potencyEnd" value="*"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expectedDuration" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eAnnotations source="potency">
+        <details key="potencyStart" value="2"/>
+        <details key="potencyEnd" value="2"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCritical" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean">
+      <eAnnotations source="potency">
+        <details key="potencyStart" value="2"/>
+        <details key="potencyEnd" value="2"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="produces" upperBound="-1"
+        eType="#//Artifact">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="uses" upperBound="-1" eType="#//Artifact">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gateway" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" lowerBound="1"
+        upperBound="-1" eType="#//Task">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        upperBound="-1" eType="#//Task">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FinalTask" eSuperTypes="#//Task">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InitTask" eSuperTypes="#//Task">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Actor" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-*-1"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasRole" lowerBound="1"
+        upperBound="-1" eType="#//AbstractRole">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-*-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="creates" upperBound="-1"
+        eType="#//Task">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=2-*-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="performs" upperBound="-1"
+        eType="#//Task">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=3-*-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Artifact" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractRole" abstract="true" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="executes" upperBound="-1"
+        eType="#//Task">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AndJoin" eSuperTypes="#//Gateway">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Process" eSuperTypes="#//EClass">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-*-*"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialTask" lowerBound="1"
+        eType="#//InitTask">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="finalTask" lowerBound="1"
+        upperBound="-1" eType="#//FinalTask">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contains" lowerBound="1"
+        upperBound="-1" eType="#//Task" containment="true">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-*-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OrJoin" eSuperTypes="#//Gateway">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OrSplit" eSuperTypes="#//Gateway">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AndSplit" eSuperTypes="#//Gateway">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sequence" eSuperTypes="#//Gateway">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Role" eSuperTypes="#//AbstractRole">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CombinedRole" eSuperTypes="#//AbstractRole">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includes" lowerBound="2"
+        upperBound="-1" eType="#//AbstractRole" containment="true">
+      <eAnnotations source="type=EReference"/>
+      <eAnnotations source="potency=1-2-*"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SeniorRole" eSuperTypes="#//Role">
+    <eAnnotations source="type=EClass"/>
+    <eAnnotations source="suptypes"/>
+    <eAnnotations source="potency=1-2-*"/>
+  </eClassifiers>
+</ecore:EPackage>

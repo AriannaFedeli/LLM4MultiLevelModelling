@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Model om="software_engineering_meta_process">
+  <Elements>
+    <TestCaseDesignTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2">
+      <isCritical value="true"/>
+    </TestCaseDesignTask>
+    <TestCaseArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact@2"/>
+    <FinalTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="FinalTask@2"/>
+    <DesignTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <ChiefTesterRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="CombinedRole@2"/>
+    <TestReportArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact@2"/>
+    <Seq3 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Sequence@2"/>
+    <TesterRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <Seq2 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Sequence@2"/>
+    <TestingTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2">
+      <expectedDuration value="9"/>
+    </TestingTask>
+    <ReqSpecificationArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact@2"/>
+    <TestDesignerRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <ProgLangArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact@2"/>
+    <CodeArtifact isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Artifact@2"/>
+    <InitialTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="InitTask@2"/>
+    <BobBrown isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Actor@2"/>
+    <AndJoin1 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="AndJoin@2"/>
+    <SeniorAnalystRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="SeniorRole@2"/>
+    <AnalystRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <Seq4 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Sequence@2"/>
+    <DeveloperRole isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Role@2"/>
+    <TestDesignReviewTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <Seq1 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Sequence@2"/>
+    <CodingTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+    <AndSplit1 isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="AndSplit@2"/>
+    <RequirementsAnalysisTask isAbstract="false" parentNodes="" potencyDepth="-1" potencyEnd="1" potencyStart="1" type="Task@2"/>
+  </Elements>
+  <Relations>
+    <tester_perf containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="TesterRole" target="TestingTask" type="executes@2" upperBound="-1"/>
+    <split1_t1 containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndSplit1" target="DesignTask" type="target@2" upperBound="-1"/>
+    <seq2_t containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq2" target="CodingTask" type="target@2" upperBound="-1"/>
+    <seq3_s containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq3" target="TestCaseDesignTask" type="source@2" upperBound="-1"/>
+    <c_ft containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="BobBrown" target="FinalTask" type="creates@2" upperBound="-1"/>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="RequirementsAnalysisTask" target="ReqSpecificationArtifact" type="produces@2" upperBound="-1"/>
+    <seq1_t containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq1" target="RequirementsAnalysisTask" type="target@2" upperBound="-1"/>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="TestingTask" target="TestReportArtifact" type="produces@2" upperBound="-1"/>
+    <seq3_t containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq3" target="TestDesignReviewTask" type="target@2" upperBound="-1"/>
+    <seq1_s containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq1" target="InitialTask" type="source@2" upperBound="-1"/>
+    <split1_t2 containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndSplit1" target="TestCaseDesignTask" type="target@2" upperBound="-1"/>
+    <analyst_perf containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AnalystRole" target="RequirementsAnalysisTask" type="executes@2" upperBound="-1"/>
+    <i_sa containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ChiefTesterRole" target="SeniorAnalystRole" type="includes@2" upperBound="-1"/>
+    <join1_s1 containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndJoin1" target="CodingTask" type="source@2" upperBound="-1"/>
+    <c_tdr containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="BobBrown" target="TestDesignReviewTask" type="creates@2" upperBound="-1"/>
+    <ct_perf containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ChiefTesterRole" target="TestCaseDesignTask" type="executes@2" upperBound="-1"/>
+    <dev_perf containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="DeveloperRole" target="CodingTask" type="executes@2" upperBound="-1"/>
+    <seq4_t containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq4" target="FinalTask" type="target@2" upperBound="-1"/>
+    <i_td containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="ChiefTesterRole" target="TestDesignerRole" type="includes@2" upperBound="-1"/>
+    <join1_t containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndJoin1" target="TestingTask" type="target@2" upperBound="-1"/>
+    <split1_s containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndSplit1" target="RequirementsAnalysisTask" type="source@2" upperBound="-1"/>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="TestCaseDesignTask" target="TestCaseArtifact" type="produces@2" upperBound="-1"/>
+    <uses containment="false" lowerBound="1" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="CodingTask" target="ProgLangArtifact" type="uses@2" upperBound="-1"/>
+    <produces containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="CodingTask" target="CodeArtifact" type="produces@2" upperBound="-1"/>
+    <seq2_s containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq2" target="DesignTask" type="source@2" upperBound="-1"/>
+    <seq4_s containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="Seq4" target="TestingTask" type="source@2" upperBound="-1"/>
+    <join1_s2 containment="false" lowerBound="0" potencyDepth="-1" potencyEnd="1" potencyStart="1" source="AndJoin1" target="TestDesignReviewTask" type="source@2" upperBound="-1"/>
+  </Relations>
+</Model>

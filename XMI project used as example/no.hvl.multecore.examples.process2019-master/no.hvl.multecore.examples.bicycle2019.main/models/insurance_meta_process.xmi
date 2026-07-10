@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<insurance_meta_process_metamodel:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:insurance_meta_process_metamodel="insurance_meta_process_metamodel" __metamodels="process">
+  <__contains xsi:type="insurance_meta_process_metamodel:Actor" __name="IActor" __relationNames="EReference,IArtifact=supervisorActor,0,-1,2-*-*,false" __potency="2-*-*" EReference="//@__contains.1">
+    <__attributeNames>supID=String,0,1,2-2,false</__attributeNames>
+  </__contains>
+  <__contains xsi:type="insurance_meta_process_metamodel:Artifact" __name="IArtifact" __potency="1-1-*"/>
+</insurance_meta_process_metamodel:Root>
